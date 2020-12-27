@@ -20,3 +20,15 @@
 ### Key points from "Gradient Checking" project assignment (Week 1)
 - Gradient checking verifies closeness between the gradients from backpropagation and the numerical approximation of the gradient (computed using forward propagation).
 - Gradient checking is slow, so we don't run it in every iteration of training. You would usually run it only to make sure your code is correct, then turn it off and use backprop for the actual learning process.
+
+### Key points from "Optimization Methods" project assignment (Week 2)
+- The difference between gradient descent, mini-batch gradient descent and stochastic gradient descent is the number of examples you use to perform one update step.
+- You have to tune a learning rate hyperparameter α.
+- With a well-turned mini-batch size, usually it outperforms either gradient descent or stochastic gradient descent (particularly when the training set is large).
+- Shuffling and Partitioning are the two steps required to build mini-batches
+- Powers of two are often chosen to be the mini-batch size, e.g., 16, 32, 64, 128.
+- Momentum takes past gradients into account to smooth out the steps of gradient descent. It can be applied with batch gradient descent, mini-batch gradient descent or stochastic gradient descent.
+- You have to tune a momentum hyperparameter  ββ  and a learning rate  αα .
+- Some advantages of Adam include:
+  - Relatively low memory requirements (though higher than gradient descent and gradient descent with momentum)
+  - Usually works well even with little tuning of hyperparameters (except  αα )
