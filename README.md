@@ -1,6 +1,6 @@
 # Coursera-DeepLearning
 
-This repository contains all the programming excercises taught by Professor [Andrew Ng's](https://www.andrewng.org/) Deep Learning Specialization from Coursera.
+This repository contains all the programming excercises taught by Professor [Andrew Ng](https://www.andrewng.org/)'s Deep Learning Specialization from Coursera.
 
 - Course 1: Neural Networks and Deep Learning
 - Course 2: Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
